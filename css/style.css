@@ -1,0 +1,187 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+footer
+{
+	background: #D3D3D3;
+	color: black;
+	display: inline-block;
+	padding: 1em 0;
+	width: 100%;
+}
+header #principal
+{
+	position: relative;
+	width: 100%;
+}
+header div #logo_mexico, 
+header div #logo_usa,
+header div #titulo
+{
+	display: inline-block;
+	padding: 0.5em;
+}
+header #logo_mexico
+{
+	width: 20%;
+}
+header #logo_usa
+{
+	float: right;
+	width: 20%;
+}
+header #logo_usa #estados_unidos
+{
+	float: right;
+}
+header #logo_mexico #mexico, #logo_usa #estados_unidos
+{	
+	display: inline-block;
+	margin:0;
+	width: 50px;
+}
+header div #logo_mexico #mexico img, header div #logo_usa #estados_unidos img
+{	
+	margin:0;
+	width: 100%;
+}
+header #titulo
+{
+	width: 50%;
+	margin: 0 auto;
+	position: absolute;
+	left: 25%;
+	text-align: center;
+	padding: 0;
+	vertical-align: top;
+}
+header #titulo h1
+{	
+	display: block;
+	font-size: 1.1em;
+	text-align: center;
+    width: 100%;
+    margin: 0;
+    margin-top: 0.5em;
+    padding: 0;
+}
+nav
+{
+	background: #4A72B1;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li
+{
+	display: inline-block;
+	margin: 0 2em 0 0;
+}
+nav ul li a
+{
+	color: black;
+	display: block;
+	padding: 0.5em;
+	text-decoration: none;
+}
+
+section #boton
+{
+	margin: 1em;
+}
+section input
+{
+	display: block;
+	margin: 1em 20em 1em 13em;
+}
+section textarea
+{	
+	margin-top: 1em;
+	height: 10em;
+	width: 25em;
+}
+textarea
+{
+	resize: inherit;
+}
+header
+{
+background: #002D81;
+color: white;
+margin: 0;
+padding: 0;
+}
+header h1
+{
+	font-size: 35px;
+	font-weight: normal;
+	margin: 0 0 0 1em;
+	width: 60%;
+}
+header img
+{
+	margin: 80px;
+}
+section
+{
+	border: solid #B0C4DE;
+	background: #75AADB;
+	text-align: center;
+}
+.area_texto_espanol
+{
+	display: inline-block;
+}
+.barra
+{
+	width: 50%;
+	position: relative;
+	padding: 0;
+	margin: 0.5em;
+}
+.barra p
+{
+	display: inline-block;
+	text-align: left;
+	width: 50%;
+	font-size: 1.4em;
+	vertical-align: top;
+	margin: 0.5em 0;
+}
+.barra figure
+{
+	display: inline-block;
+	width: 40px;
+	margin: 0;
+}
+.barra figure img
+{
+	text-align: center;
+	width: 100%;
+}
+.area_texto_espanol #textarea
+{
+	border-radius: 5px;
+	box-shadow: 1px -1px 1px #000;
+	resize:none;
+}
+#contenedor_boton
+{
+	display: block;
+	margin: 0.5em;
+	width: 100%;
+}
+#boton
+{
+	background: #4A72B1;
+	border-radius: 3px;
+	color: #fff;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	width: 15%;
+}
